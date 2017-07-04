@@ -54,4 +54,21 @@ $app->group('/v1', function() {
 
 		return $response->withJson([ 'data' => $res ]);
 	});
+	$this->get("/image/{imageId}", function($request, $response, $args) {
+		// @TODO to replace with SQL call
+		$file = file_get_contents("../public/posts.minified.json");
+		//$file = file_get_contents("../public/posts.json");
+		$result = json_decode($file);
+
+		$imageId = $args['imageId'];
+		$post = [];
+		for($i = 0; $i < count($result); $i++) {
+			if($result[$i]->id == $imageId) {
+				$post = $result[$i];
+				break;
+			}
+		}
+
+		return $response->withJson([ 'data' => [$post] ]);
+	});
 });
