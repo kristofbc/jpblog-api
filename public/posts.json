@@ -6,7 +6,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Ghibli"
+            {"id": 10, "title": "Ghibli"}
         ],
         "media":{
             "id":204,
@@ -23,7 +23,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Mitaka"
+            {"id": 9, "title": "Mitaka"}
         ],
         "media":{
             "id":196,
@@ -40,7 +40,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Mitaka"
+            {"id": 9, "title": "Mitaka"}
         ],
         "media":{
             "id":197,
@@ -57,7 +57,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Mitaka"
+            {"id": 9, "title": "Mitaka"}
         ],
         "media":{
             "id":198,
@@ -74,7 +74,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Mitaka"
+            {"id": 9, "title": "Mitaka"}
         ],
         "media":{
             "id":199,
@@ -91,7 +91,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Ghibli"
+            {"id": 10, "title": "Ghibli"}
         ],
         "media":{
             "id":200,
@@ -108,7 +108,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Ghibli"
+            {"id": 10, "title": "Ghibli"}
         ],
         "media":{
             "id":201,
@@ -125,7 +125,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Ghibli"
+            {"id": 10, "title": "Ghibli"}
         ],
         "media":{
             "id":202,
@@ -142,7 +142,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Ghibli"
+            {"id": 10, "title": "Ghibli"}
         ],
         "media":{
             "id":203,
@@ -159,7 +159,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Ghibli"
+            {"id": 10, "title": "Ghibli"}
         ],
         "media":{
             "id":205,
@@ -176,7 +176,7 @@
         "body":"",
         "published_date":"2017-07-08 00:00:00",
         "tags":[
-            "Ghibli"
+            {"id": 10, "title": "Ghibli"}
         ],
         "media":{
             "id":206,
